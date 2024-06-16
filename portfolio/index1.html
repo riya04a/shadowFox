@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <!--font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--css -->
+    <link rel="stylesheet" href="index1.css">
+
+</head>
+
+<body>
+
+</body>
+
+<!-- header design -->
+<header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">skills</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact Me</a>
+
+    </nav>
+</header>
+
+
+
+<!-- home section design -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hi,I am </h3>
+        <h1>Riya shah</h1>
+        <h3> I am a Student At department of computer science,Gujarat University</h3>
+
+
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/riya-shah-1091ba2b1/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/shah_riya01/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://github.com/riya04a"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <!-- <a href="#" class="btn">Download CV</a> -->
+    </div>
+
+    <div class="home-img">
+        <img src="components/uphoto.png" alt="">
+    </div>
+</section>
+
+<!-- about section design -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="components/about.jpg">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me :</span> </h2>
+        <p>Hello! I'm Riya, a passionate and dedicated web developer.
+            I am pursuing Bachelor's degree in Computer Science from Gujarat University.
+            Over the years, I've honed my skills in HTML, CSS and JavaScript.</p>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <h3>Skills:</h3>
+    <div class="box">
+        <p class="title">HTML</p>
+    </div>
+    <div class="box">
+        <p class="title">CSS</p>
+    </div>
+    <div class="box">
+        <p class="title">Javascript</p>
+    </div>
+    <div class="box">
+        <p class="title">C</p>
+    </div>
+    <div class="box">
+        <p class="title">C++</p>
+    </div>
+    <div class="box">
+        <p class="title">Mysql</p>
+    </div>
+    <div class="box">
+        <p class="title">Python</p>
+    </div>
+    <div class="box">
+        <p class="title">DSA</p>
+    </div>
+
+</section>
+
+
+<section class="project" id="project">
+    <h3>Latest Project:</h3>
+
+    <div class="project-container">
+        <div class="project-box">
+            <img src="components/cityscape_challenges.png" alt="Cityscape Challenges" id="img1">
+            <div class="portfolio-layer">
+                <h4>cityscape_challenges</h4>
+                <p>A game where you complete tasks to find the treasure.</p>
+                <a href="https://github.com/riya04a/Cistyscape_Challenges_Game"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="components/KBC.png" alt="KBC">
+            <div class="portfolio-layer">
+                <h4>KBC</h4>
+                <p>"Play this fun KBC game, answer questions, and aim for the big prize!"</p>
+               <a href="https://github.com/riya04a/KBC_Game"> <i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="components/academic_insights.png" alt="Academic Insights">
+            <div class="portfolio-layer">
+                <h4>academic_insights</h4>
+                <p>Academic Insights lets you post your work, network with others, and share your accomplishments.</p>
+                <a href=""> <i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- contact me section design -->
+<section class="contact" id="contact">
+    <h3>Contact Me:</h3>
+    <form action="send_mail.php" method="POST">
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+            <input type="text" name="subject" placeholder="Email Subject" required>
+            <input type="tel" name="phone" placeholder="Mobile Number" required>
+        </div>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+
+<!--footer design -->
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>All rigths are reserved &copy;.</p>
+    </div>
+
+    <div class="footer-icontop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i> </a>
+    </div>
+</footer>
+
+<!-- main js -->
+<script src="index.js"></script>
+</body>
+
+</html>
